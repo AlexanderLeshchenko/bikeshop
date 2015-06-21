@@ -68,14 +68,12 @@ header .navbar-default {
 }
 header .navbar{
 	position: absolute;
-	top: 2%;
+	top: 1%;
 	left:0;
 	right: 0;
 	z-index: 10;
 }
-.navbar-brand>img {
 
-}
 .bs-nav-basket {
 	display: inline-block;
 	float: right;
@@ -467,7 +465,7 @@ h2{
 .bs-contactus{
 	background: url("../img/CONTACT_US_BG.jpg") no-repeat;
 	padding-top: 60px;
-	padding-bottom: 80px;
+	padding-bottom: 50px;
 
 }
 .bs-contactus h2{
@@ -476,7 +474,7 @@ h2{
 .bs-contactus p{
 	font-weight: 400;
 	font-size: 15px;
-	margin: 0 0 50px 0;
+	margin: 0 0 30px 0;
 	padding: 0;
 }
 
@@ -543,14 +541,8 @@ h2{
 	transition: color .3s,background-color .3s;
 }
 .sr-only {
-	position: inherit;
-	width: 1px;
-	height: 1px;
-	margin: -1px;
-	padding: 0px;
-	overflow: hidden;
-	clip: rect(0px, 0px, 0px, 0px);
-	border: 0px none;
+	-webkit-position: absolute;
+	-moz-position: inherit;
 }
 
 /****FOOTER****/
